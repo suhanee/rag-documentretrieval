@@ -1,0 +1,10 @@
+azure-ai-formrecognizer
+azure-search-documents
+openai
+python-dotenv
+langchain
+nltk
+scipy
+python-docx
+fastapi
+uvicorn
