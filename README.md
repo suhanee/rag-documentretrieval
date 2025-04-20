@@ -31,35 +31,35 @@ This project is a Retrieval-Augmented Generation (RAG)-based framework designed 
 
 - **`.env`**: Contains environment variables for Azure OpenAI and Document Intelligence API configurations. After cloning please add your own .env file with the following essential keys.
 
-# Azure Cognitive Search service endpoint
+### Azure Cognitive Search service endpoint
 AZURE_SEARCH_SERVICE_ENDPOINT=
 
-# Azure Cognitive Search admin key for authentication
+### Azure Cognitive Search admin key for authentication
 AZURE_SEARCH_ADMIN_KEY=
 
-# Name of the Azure Cognitive Search index
+### Name of the Azure Cognitive Search index
 AZURE_SEARCH_INDEX=
 
-# Azure OpenAI service endpoint for GPT-4o chat completions
+### Azure OpenAI service endpoint for GPT-4o chat completions
 AZURE_OPENAI_ENDPOINT=
 
-# Azure OpenAI API key for authentication
+### Azure OpenAI API key for authentication
 AZURE_OPENAI_API_KEY=
 
-# Deployment name and model details for embeddings in Azure OpenAI
+### Deployment name and model details for embeddings in Azure OpenAI
 AZURE_OPENAI_EMBEDDING_DEPLOYMENT=
 AZURE_OPENAI_EMBEDDING_MODEL_NAME=
 
-# API version for Azure OpenAI service
+### API version for Azure OpenAI service
 AZURE_OPENAI_API_VERSION=
 
-# Deployment name for the GPT-4o model
+### Deployment name for the GPT-4o model
 AZURE_OPENAI_DEPLOYMENT_NAME=
 
-# Azure Document Intelligence API key for authentication
+### Azure Document Intelligence API key for authentication
 AZURE_DOCUMENT_INTELLIGENCE_KEY=
 
-# Azure Document Intelligence service endpoint
+### Azure Document Intelligence service endpoint
 AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT=
 
 - **`chunking.py`**: Script for splitting large documents into smaller, manageable chunks for processing.
